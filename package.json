@@ -1,0 +1,18 @@
+{
+    "version": "1.0.0",
+    "name": "it.innowatio.cordova.ios-security",
+    "cordova_name": "IOS Fullscreen",
+    "description": "IOS Fullscreen",
+    "license": "MIT",
+    "repo": "https://github.com/robertklein/cordova-ios-security.git",
+    "keywords": [
+        "cordova",
+        "ios",
+        "fullscreen"
+    ],
+    "platforms": [
+        "ios"
+    ],
+    "engines": [],
+    "englishdoc": ""
+}

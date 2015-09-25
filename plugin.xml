@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:rim="http://www.blackberry.com/ns/widgets"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="it.innowatio.cordova.ios-fullscreen"
+        version="0.3.0">
+    <name>IOS Fullscreen</name>
+    <description>IOS Fullscreen</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,device,fullscreen</keywords>
+    <repo>https://github.com/innowatio/cordova-ios-fullscreen.git</repo>
+
+    <platform name="ios">
+        <config-file target="*-Info.plist" parent="UIRequiresFullScreen">
+            <true/>
+        </config-file>
+    </platform>
+
+</plugin>
