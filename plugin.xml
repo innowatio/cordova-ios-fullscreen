@@ -12,8 +12,14 @@
     <repo>https://github.com/innowatio/cordova-ios-fullscreen.git</repo>
 
     <platform name="ios">
+        <config-file target="*-Info.plist" parent="UIStatusBarHidden">
+            <true />
+        </config-file>
         <config-file target="*-Info.plist" parent="UIRequiresFullScreen">
-            <true/>
+            <true />
+        </config-file>
+        <config-file target="*-Info.plist" parent="UIViewControllerBasedStatusBarAppearance">
+            <false />
         </config-file>
     </platform>
 
